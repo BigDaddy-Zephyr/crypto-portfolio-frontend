@@ -1,0 +1,13 @@
+{
+  "title": "Track your crypto portfolio",
+  "button": [
+    {
+      "title": "Explore",
+      "link":"/dashboard"
+    },
+    {
+      "title": "Learn more",
+      "color": "#fff"
+    }
+  ]
+}

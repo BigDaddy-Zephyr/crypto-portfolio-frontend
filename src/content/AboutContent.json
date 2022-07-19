@@ -1,0 +1,16 @@
+{
+  "title": "Light, fast & responsive",
+  "text": "Add your favourite cryptocurrencies. Search is integrated with Messari API with a list of over 5000 cryptocurrencies",
+  "section": [
+    {
+      "title": "PlanetScale",
+      "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
+      "icon": "notes.svg"
+    },
+    {
+      "title": "React",
+      "content": "Styled Components gives you total control over your components.",
+      "icon": "notes.svg"
+    }
+  ]
+}
