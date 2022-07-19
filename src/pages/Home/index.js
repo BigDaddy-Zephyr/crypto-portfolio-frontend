@@ -1,8 +1,8 @@
 import { lazy } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-// import Users from "../../components/ContactForm";
-const Contact = lazy(() => import("../../components/ContactForm"));
+// import Users from "../../components/PerformanceForm";
+const Performance = lazy(() => import("../../components/Performance"));
 const Homepage = lazy(()=>import("./homepage"));
 const Form = lazy(()=>import("../../components/Form"));
 
@@ -11,9 +11,8 @@ const Home = () => {
     <Router>
       <div>
         <Switch>
-          <Route exact path='/' component={Homepage} />
-          <Route exact path='/dashboard' component={Contact} />
-          {/* <Route exact path='/form' component={Form} /> */}
+          <Route path='/' component={Homepage} />
+          <Route path='/dashboard' component={Performance} />
         </Switch>
       </div>
     </Router> 

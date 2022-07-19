@@ -1,5 +1,6 @@
 import LeftContentBlock from "./LeftContentBlock";
 import RightContentBlock from "./RightContentBlock";
+import Performance from "./../Performance"
 import { ContentBlockProps } from "./types";
 
 const ContentBlock = (props: ContentBlockProps) => {

@@ -195,11 +195,6 @@ const logstockprices =()=>{
               </Typography>
             </Box>
             <Box>
-              
-                <Button onClick={()=> logstockprices()} variant="contained" color="primary">
-                  Remove Portfolio
-                </Button>
-
             </Box>
             <Box>
 
