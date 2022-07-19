@@ -4,7 +4,6 @@ import ReactDOM from "react-dom";
 import "antd/dist/antd.css";
 
 import Router from "./router";
-import i18n from "./translation";
 
 const App = () => (
   <BrowserRouter>

@@ -2,7 +2,7 @@ import { Row, Col } from "antd";
 import { SvgIcon } from "../../common/SvgIcon";
 import Container from "../../common/Container";
 
-import i18n from "i18next";
+
 import {
   FooterSection,
   Title,
@@ -26,9 +26,6 @@ interface SocialLinkProps {
 }
 
 const Footer = () => {
-  const handleChange = (language: string) => {
-    i18n.changeLanguage(language);
-  };
 
   const SocialLink = ({ href, src }: SocialLinkProps) => {
     return (
